@@ -127,7 +127,7 @@ class Api():
             print e.message
 
 if __name__ == "__main__":
-    username = 'guoew25@gmail.com'
+    username = 'guoerwei@aldwx.com'
     password = ''
 
     url = "http://ip:port/ws/v1/cluster/apps"
@@ -151,7 +151,7 @@ if __name__ == "__main__":
                     isExist = content.find(i["applicationId"])
                     if isExist <= 0:
                         #receivers = api.resvers(i)
-                        receivers = "guoerwei@aldwx.com"
+                        receivers = "guoew25@gmail.com"
                         subject = "Application " + i["className"] + " run error!!!"
                         mess_info = api.messFormat(i)
 
